@@ -53,6 +53,9 @@ footer {
 
 
 /* Links */
+a {
+	color: orange;
+}
 .remove-link-style,
 .remove-link-style:hover{
 	text-decoration-line:none;
