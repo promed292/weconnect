@@ -1,0 +1,69 @@
+/* Media queries */
+@media (min-width: 800px) {
+  .collapse {
+		padding:0 10px;
+  }
+	.navbar-left {
+		margin-right: 50%;
+	}
+	.navbar-right {
+		margin-left:auto;
+	}
+}
+
+body {
+	background-image: url("../images/bg1.png");
+	background-color: #DEDEBD;
+}
+
+footer {
+  margin-top: 60px;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.red {
+  color: red;
+}
+
+.small {
+  font-size: 12px;
+}
+
+/* Fa fonts*/
+.fa,
+.far,
+.fa-user-plus {
+	color: inherit;
+}
+
+
+
+/* Buttons */
+.btn {
+	background-color:orange;
+	color:#fff;
+	border:none;
+}
+.btn:hover {
+	color:orange;
+	border-radius: 0;
+	background-color:#36485b;
+}
+
+
+/* Links */
+.remove-link-style,
+.remove-link-style:hover{
+	text-decoration-line:none;
+	color:black;
+}
+a:hover {
+  text-decoration-line: none;
+  color: inherit;
+}
+
+/* Effects */
+.box-effect:hover {
+	box-shadow: 0 2px 2px 0 #f7a20e, 0 2px 2px 0 #f7a20e;
+}
